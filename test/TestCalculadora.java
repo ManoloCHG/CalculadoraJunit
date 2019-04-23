@@ -35,22 +35,22 @@ public class TestCalculadora {
     
     @Test
     public void testSuma() {
-     int sum = Calculadora.suma(8,4);
-      assertEquals(sum, 12);
+     int sum = (int) Calculadora.suma(8,4);
+      assertEquals(sum, 13);
     }
     @Test
     public void testRest() {
-     int res = Calculadora.resta(8,4);
+     int res = (int) Calculadora.resta(8,4);
       assertEquals(res, 4);
     }
     @Test
     public void testDiv() {
-     int div = Calculadora.multiplica(8,4);
+     int div = (int) Calculadora.multiplica(8,4);
       assertEquals(div, 32);
     }
     @Test
     public void testMultip() {
-     int Mult = Calculadora.divide(8,4);
+     int Mult = (int) Calculadora.divide(8,4);
       assertEquals(Mult, 2);
     }
     

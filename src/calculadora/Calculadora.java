@@ -11,18 +11,16 @@ package calculadora;
  */
 public class Calculadora {
     
-    double ans;
-    
-    public static int suma (int a , int b){
+    public static double suma (double a , double b){
         return a+b;
     } 
-    public static int resta (int a , int b){
+    public static double resta (double a , double b){
         return a-b;
     }
-    public static int multiplica (int a , int b){
+    public static double multiplica (double a , double b){
         return a*b;
     }
-    public static int divide (int a , int b){
+    public static double divide (double a , double b){
         return a/b;
     }
     /**
