@@ -17,6 +17,7 @@ import org.junit.Test;
  */
 public class TestCalculadora {
    
+    Calculadora calculadora = new Calculadora();
     
     public TestCalculadora() {
     }
@@ -35,27 +36,25 @@ public class TestCalculadora {
     
     @Test
     public void testSuma() {
-     int sum = (int) Calculadora.suma(8,4);
-      assertEquals(sum, 12);
+      double sum = calculadora.suma(8, 4);
+      assertEquals(sum,0,12);
     }
     @Test
     public void testRest() {
-     int res = (int) Calculadora.resta(8,4);
-      assertEquals(res, 4);
+     double res = calculadora.resta(8,4);
+      assertEquals(res,0, 4);
     }
     @Test
     public void testDiv() {
-     int div = (int) Calculadora.multiplica(8,4);
-      assertEquals(div, 32);
+     double div = calculadora.multiplica(8,4);
+      assertEquals(div,0, 32);
     }
     @Test
     public void testMultip() {
-     int Mult = (int) Calculadora.divide(8,4);
-      assertEquals(Mult, 2);
+     double Mult = calculadora.divide(8,4);
+      assertEquals(Mult,0, 2);
     }
-    
-    
-
+ 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //

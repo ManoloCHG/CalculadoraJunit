@@ -11,35 +11,35 @@ package calculadora;
  */
 public class Calculadora {
     static double ans;
-    public static double suma (double a , double b){
+    public double  suma (double a , double b){
         ans = a+b;
         return ans;
     } 
-    public static double resta (double a , double b){
+    public double  resta (double a , double b){
         ans = a-b;
         return ans;
     }
-    public static double multiplica (double a , double b){
+    public double  multiplica (double a , double b){
         ans = a*b;
         return ans;
     }
-    public static double divide (double a , double b){
+    public double  divide (double a , double b){
         ans = a/b;
         return ans;
     }
-    public static double suma2 (double a){
+    public  double suma (double a){
         ans = a+ans;
         return ans;
     } 
-    public static double resta2 (double a){
+    public  double resta (double a){
         ans = a-ans;
         return ans;
     }
-    public static double multiplica2 (double a){
+    public  double multiplica (double a){
         ans = a*ans;
         return ans;
     }
-    public static double divide2 (double a){
+    public  double divide (double a){
         ans = a/ans;
         return ans;
     }
@@ -47,8 +47,6 @@ public class Calculadora {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-      
-        System.out.println(divide(8,2));   
+        // TODO code application logic here   
     }   
 }
