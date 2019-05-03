@@ -37,22 +37,22 @@ public class TestCalculadora {
     @Test
     public void testSuma() {
       double sum = calculadora.suma(8, 4);
-      assertEquals(sum,0,12);
+      assertEquals(sum,12,1);
     }
     @Test
     public void testRest() {
      double res = calculadora.resta(8,4);
-      assertEquals(res,0, 4);
+      assertEquals(res,4, 1);
     }
     @Test
     public void testDiv() {
      double div = calculadora.multiplica(8,4);
-      assertEquals(div,0, 32);
+      assertEquals(div,32,1);
     }
     @Test
     public void testMultip() {
      double Mult = calculadora.divide(8,4);
-      assertEquals(Mult,0, 2);
+      assertEquals(Mult,2, 1);
     }
  
     // TODO add test methods here.
